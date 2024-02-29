@@ -1,51 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Advanced CSS - Assignment 1</title>
-    <style>
-       
-        a[href *="google"]
-        {color: #008000;}
-
-        a[href *="group"]
-        {color: #ff0000;}
-
-        #second-div p:nth-child(odd){color: #0000ff;}
-        #second-div p:nth-child(even){color: #ff0000;}
- 
-        body> :last-child:hover{font-style: italic}
-        
-        #first-div> p::after{font-style: italic;
-                            content: " NEW";
-                            color: #ffff00;}
-        
-
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment3</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1>Main Heading</h1>
-    <p>Paragraph 1</p>
-    <a href="https://www.google.com/">Google</a>
-    <a href="https://www.google.com/doodles">Google Doodles</a>
-    <a href="https://www.link-group.eu/" target="_blank">Goto Link Group</a>
-    <div id="first-div">
-        <h2>Subheading</h2>
-        <p>Paragraph 2</p>
-        <p>Paragraph 3</p>
-        <div id="second-div">
-            <h3>Sub subheading</h3>
-            <p>Paragraph 4</p>
-            <p>Paragraph 5</p>
-            <p>Paragraph 6</p>
-            <p>Paragraph 7</p>
-            <p>Paragraph 8</p>
-        </div>
-    </div>
-    <p>Paragraph 9</p>
-    <p>Paragraph 10</p>
-</body>
+    <h1>Gallery Heading</h1>
+       
+    <div class="container"> <!--glavni div-->
 
+        <div class="thumb"><img src="placeholder-image.png" alt="thumbnail"> <span>Image Title</span> </div>
+        
+        <div class="thumb"><img src="placeholder-image.png" alt="thumbnail"> <span>Image Title</span> </div>
+        
+        <div class="thumb"><img src="placeholder-image.png" alt="thumbnail"> <span>Image Title</span> </div>
+        
+        <div class="thumb"><img src="placeholder-image.png" alt="thumbnail"> <span>Image Title</span> </div>
+        
+        <div class="thumb"><img src="placeholder-image.png" alt="thumbnail"> <span>Image Title</span> </div>
+        
+        <div class="thumb"><img src="placeholder-image.png" alt="thumbnail"> <span>Image Title</span></div>
+        
+        <div class="thumb"><img src="placeholder-image.png" alt="thumbnail"> <span>Image Title</span> </div>
+        
+        <div class="thumb"><img src="placeholder-image.png" alt="thumbnail"> <span>Image Title</span> </div>
+        
+        <div class="thumb"><img src="placeholder-image.png" alt="thumbnail"> <span>Image Title</span> </div>
+        
+        <div class="thumb"><img src="placeholder-image.png" alt="thumbnail"> <span>Image Title</span> </div>
+
+
+
+    </div><!--glavni div-->
+    <br>
+    
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate vero veritatis eligendi unde eaque animi, necessitatibus, quis dignissimos voluptate quos quidem molestias consequuntur minus in reprehenderit enim maxime. Porro sed dolore, ad numquam, totam quis minus corrupti pariatur cupiditate reiciendis necessitatibus. Odio deleniti facere, nihil voluptatibus, dolorem laborum, ut provident saepe vero soluta ad? Mollitia error quo reiciendis suscipit quibusdam.</p>
+</body>
 </html>
